@@ -1,2 +1,2 @@
-# Multiplayer-Dice-Game
- A Dice Game for school, allows multiple players.
+# Multiplayer Dice Game
+ A Dice Game in Java for a school project, it allows multiple players.
