@@ -7,7 +7,7 @@ public class main {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		
-		System.out.println("\n=======================\n Welcome to Dice Mania\n=======================");
+		System.out.println("\n=======================|\n Welcome to Dice Mania |\n=======================|");
 		System.out.println();
 //		Game game = new Game();
 //		
@@ -29,7 +29,7 @@ public class main {
 		Game game = new Game();
 		
 		while(true) {
-			System.out.println(" 1) Add player \n 2) Check stats \n 3) Start game \n 4) Custom game \n 5) Remove player \n\n=======================\n ");
+			System.out.println("\n=======================|\n Admin Dice Mania Menu |\n=======================|\n 1 | Add player        | \n 2 | Check stats       | \n 3 | Start game        | \n 4 | Custom game       | \n 5 | Remove player     | \n=======================|\n");
 			int selectedMenuOption = in.nextInt();
 			in.nextLine();
 			
@@ -40,7 +40,6 @@ public class main {
 				String pName = in.nextLine();
 				game.addPlayer(new Player(pName));
 				System.out.println();
-				//ToDo: create add player method
 				break;
 			case 2:
 				checkStats(game);

@@ -19,6 +19,7 @@ public class Game {
 	public void addPlayer(Player player) {
 		if (!checkExistence(player.getName())) {
 			players.add(player);
+			System.out.println(String.format("%s has been added successfuly!", player.name));
 		} else {
 			System.out.println("\n{ERROR: This player already exists.}");
 		}
